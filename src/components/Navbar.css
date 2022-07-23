@@ -1,0 +1,14 @@
+.navMain {
+  max-width: 1400px;
+  margin: 0px auto;
+  background-color: rgb(44, 43, 43);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  align-items: center;
+  color: #fff  
+}
+
+.logo {
+  max-width: 100%;
+}

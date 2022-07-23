@@ -1,1 +1,10 @@
-
+.image-container {
+  position: absolute;
+  top: 0px;
+  z-index: -50;
+  width: 100vw;
+  height: auto;
+}
+img { 
+  width: 100%;
+}
