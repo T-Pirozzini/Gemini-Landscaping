@@ -4,11 +4,13 @@ import Main from './components/Main'
 import ServiceCarousel from './components/ServiceCarousel'
 import Footer from './components/Footer'
 import VanIsle from './images/lesly-derksen.jpg'
+import About from './components/About'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />      
+    <div className="app">
+      <Navbar />
+      <About />      
       <div className="image-container">
         <img src={VanIsle} />
       </div>

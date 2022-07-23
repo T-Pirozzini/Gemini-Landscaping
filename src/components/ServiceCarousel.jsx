@@ -37,7 +37,7 @@ export default function ServiceCarousel() {
       >
         <div className="lawn">
           <h2>Lawn Care</h2>
-          <button>Book Now</button>
+          <button className="btn-book-now">Book Now</button>
         </div>
         <div className="garden">
           <h2>Garden Care & Pruning</h2>

@@ -8,10 +8,9 @@ const handleClick = () => {
 
 export default function Navbar() {
   return (
-    <div className='navMain'>
-      <div><span>HOME</span></div>
-      <div><span>ABOUT</span></div>
+    <div className='navMain'>      
       <div><img src={GeminiLogo} className="logo" alt="gemini-logo" /></div>
+      <div><span>ABOUT</span></div>
       <div><span onClick={handleClick}>SERVICES</span></div>
       <div><span>CONTACT</span></div>
     </div>
