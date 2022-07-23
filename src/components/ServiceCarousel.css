@@ -1,0 +1,29 @@
+.carousel-container {
+  padding-top: 200px;
+  
+}
+
+.item1 {
+  background-color: aqua;
+  height: 40vh;
+}
+.item2 {
+  background-color: rgb(65, 19, 170);
+  height: 40vh;
+}
+.item3 {
+  background-color: rgb(111, 25, 114);
+  height: 40vh;
+}
+.item4 {
+  background-color: rgb(255, 51, 0);
+  height: 40vh;
+}
+.item5 {
+  background-color: rgb(173, 189, 32);
+  height: 40vh;
+}
+.items:hover {
+  background-color: green;
+  cursor: pointer;
+}
