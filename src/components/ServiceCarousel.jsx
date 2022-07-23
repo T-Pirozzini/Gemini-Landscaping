@@ -35,11 +35,22 @@ export default function ServiceCarousel() {
       infinite={true}
       className="items" 
       >
-        <div className="item1">Item 1</div>
-        <div className="item2">Item 2</div>
-        <div className="item3">Item 3</div>
-        <div className="item4">Item 4</div>
-        <div className="item5">Item 5</div>
+        <div className="lawn">
+          <h2>Lawn Care</h2>
+          <button>Book Now</button>
+        </div>
+        <div className="garden">
+          <h2>Garden Care & Pruning</h2>
+        </div>
+        <div className="all-services">
+          <h2>All Services</h2>
+        </div>
+        <div className="pressure-washing">
+          <h2>Pressure Washing</h2>
+        </div>
+        <div className="other-services">
+          <h2>Other Services Available</h2>
+        </div>
       </Carousel>;
     </div>
   )

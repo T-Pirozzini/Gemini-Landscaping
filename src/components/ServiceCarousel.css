@@ -1,29 +1,64 @@
 .carousel-container {
-  padding-top: 200px;
-  
+  padding-top: 300px;
+  box-sizing: border-box;  
 }
-
-.item1 {
-  background-color: aqua;
+.items {
+  margin: 100px;
+}
+.lawn {
+  background-image: url('../images/justin-schwartfigure.jpg');
+  background-size: cover;
   height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;  
 }
-.item2 {
-  background-color: rgb(65, 19, 170);
+h2 {
+  color: white;
+  background: black;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Hubballi', cursive;  
+}
+button {
+  align-self: center;
+  margin-bottom: 20px; 
+  font-size: 3em;  
+  font-family: 'Hubballi', cursive; 
+}
+button:hover {  
+  border: 4px solid rgb(121, 199, 70);
+  border-radius: 4px;
+}
+.garden {
+  background-image: url('../images/serena-saponaro.jpg');
+  background-size: cover;
   height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
-.item3 {
-  background-color: rgb(111, 25, 114);
+.all-services {
+  background-image: url('../images/daniel-watson.jpg');
+  background-size: cover;
   height: 40vh;
+  margin: 20px;
 }
-.item4 {
-  background-color: rgb(255, 51, 0);
+.pressure-washing {
+  background-image: url('../images/pressure-wash.jpg');
+  background-size: cover;
   height: 40vh;
+  margin: 20px;
 }
-.item5 {
-  background-color: rgb(173, 189, 32);
+.other-services {
+  background-image: url('../images/retaining-wall.jpg');
+  background-size: cover;
   height: 40vh;
+  margin: 20px;
 }
-.items:hover {
-  background-color: green;
+.items:hover { 
   cursor: pointer;
 }
