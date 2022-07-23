@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import Footer from './components/Footer'
 import VanIsle from './images/lesly-derksen.jpg'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <div className="image-container">
         <img src={VanIsle} />
       </div>
-      <Main />
+      {/* <Main /> */}
+      <Footer />
     </div>
   );
 }

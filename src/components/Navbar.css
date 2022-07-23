@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Genos&family=Hubballi&display=swap');
 
 .navMain {
   max-width: 100%;
@@ -9,16 +9,32 @@
   text-align: center;
   align-items: center;
   color: #fff;
-  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: 'Hubballi', cursive;
   font-size: 4em;
   position: fixed;  
 }
 
 .navMain > div > span:hover {
   color: rgb(121, 199, 70);
-  cursor: pointer;
+  cursor: pointer;  
+  border-radius: 6px;
+  animation: pulse 2s infinite ease-in-out;
+}
+.logo {  
+  max-width: 100%;    
 }
 
-.logo {
-  max-width: 100%;
+
+/* Chrome, Safari, Opera */
+
+@keyframes pulse {
+  from {
+    color: rgb(121, 199, 70);    
+  }
+  50% {
+    color:rgb(162, 201, 136)
+  }
+  to {
+    color: rgb(121, 199, 70);
+  }
 }

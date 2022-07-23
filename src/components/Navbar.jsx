@@ -8,7 +8,7 @@ export default function Navbar() {
       <div><span>Home</span></div>
       <div><span>About</span></div>
       <div><img src={GeminiLogo} className="logo" alt="gemini-logo" /></div>
-      <div><span>Services</span></div>
+      <div><span onClick="document.getElementById('footer').scrollIntoView();">Services</span></div>
       <div><span>Contact</span></div>
     </div>
   )
