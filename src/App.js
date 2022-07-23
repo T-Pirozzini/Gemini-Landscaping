@@ -10,6 +10,7 @@ function App() {
       <div className="image-container">
         <img src={VanIsle} />
       </div>
+      <Main />
     </div>
   );
 }

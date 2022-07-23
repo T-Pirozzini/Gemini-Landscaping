@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
 .navMain {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0px auto;
-  background-color: rgb(44, 43, 43);
+  background-color: rgba(44, 43, 43, 0.877);  
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   text-align: center;
   align-items: center;
-  color: #fff  
+  color: #fff;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 4em;
+  position: fixed;  
+}
+
+.navMain > div > span:hover {
+  color: rgb(121, 199, 70);
+  cursor: pointer;
 }
 
 .logo {
