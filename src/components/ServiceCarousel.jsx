@@ -5,6 +5,10 @@ import "./ServiceCarousel.css"
 
 export default function ServiceCarousel() {
 
+  const handleClick = () => {
+    document.querySelector('.contact-container').scrollIntoView({block:'center', behavior: "smooth"});
+  }
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -60,7 +64,7 @@ export default function ServiceCarousel() {
             <p>Bark mulch application</p>
             <p>River rock themed landscapes</p>
           </div>          
-          <button className="btn-book-now">Book Now</button>
+          <button className="btn-book-now" onClick={handleClick}>Book Now</button>
         </div>
       </Carousel>;
     </div>

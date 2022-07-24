@@ -81,7 +81,7 @@ h2 {
   align-self: center;
   margin-bottom: 20px; 
   font-size: 3em;
-  height: 75px;  
+  height: 60px;  
   font-family: 'Hubballi', cursive;
   border: 4px solid white;
   border-radius: 4px; 
@@ -97,15 +97,19 @@ button:hover {
 
 @media screen and (max-width: 450px) {
   .carousel-container {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .items {
     margin: 0px;
   }
   h2 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   .other-services p {
-    font-size: 1.3em;
+    font-size: 1em;
+  }
+  .btn-book-now {
+    height: 50px;
+    font-size: 2em;    
   }
 }
