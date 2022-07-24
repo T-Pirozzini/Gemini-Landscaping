@@ -80,3 +80,25 @@ label {
   border-radius: 6px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+  .contact-container {
+   margin: 20px 0px;
+  }
+  .contact-services-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  .services {
+    width: 60%;
+    align-self: center;
+  }
+  .service-list {
+    font-size: .8em;
+    width: 100%;
+  }
+}
