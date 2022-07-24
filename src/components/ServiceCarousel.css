@@ -94,3 +94,18 @@ button:hover {
   border: 2px solid rgb(121, 199, 70);
   cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+  .carousel-container {
+    margin-top: 50px;
+  }
+  .items {
+    margin: 0px;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .other-services p {
+    font-size: 1.3em;
+  }
+}

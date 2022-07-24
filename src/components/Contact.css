@@ -31,7 +31,11 @@ select {
   width: 40%;
 }
 .details {
-  width: 90%;
+  width: 95%;
+}
+.details > p {
+  font-size: 1.5em;
+  margin: 0px;
 }
 textarea {
   height: 100px;
@@ -64,7 +68,7 @@ label {
   justify-content: center;
 }
 .btn-contact {
-  font-size: 1em;
+  font-size: 1.2em;
   height: 40px;  
   font-family: 'Hubballi', cursive;
   border: 4px solid white;

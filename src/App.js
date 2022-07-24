@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar'
-import Main from './components/Main'
 import ServiceCarousel from './components/ServiceCarousel'
 import Footer from './components/Footer'
 import VanIsle from './images/lesly-derksen.jpg'
@@ -13,9 +12,8 @@ function App() {
       <Navbar />
       <About />      
       <div className="image-container">
-        <img src={VanIsle} />
-      </div>
-      {/* <Main /> */}
+        <img className="background" src={VanIsle} />
+      </div>      
       <ServiceCarousel />
       <Contact />
       <Footer />

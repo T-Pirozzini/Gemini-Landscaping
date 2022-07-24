@@ -9,7 +9,7 @@ const focusServices = () => {
   document.querySelector('.items').scrollIntoView({block:'center', behavior: "smooth"});
 }
 const focusContact = () => {
-  document.querySelector('.contact-container').scrollIntoView({behavior: "smooth"});
+  document.querySelector('.contact-container').scrollIntoView({block:'center', behavior: "smooth"});
 }
 
 export default function Navbar() {
