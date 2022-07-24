@@ -1,3 +1,6 @@
+.carousel-container {
+  margin-top: 100px;
+}
 .items {
   margin: 50px;
 }
@@ -51,6 +54,13 @@
   justify-content:space-between;
   align-items: center; 
 }
+.other-services-list {
+  background-color: rgba(255, 255, 255, 0.432);
+  border-radius: 4px;
+  padding: 0px 20px;
+  text-align: center;
+  width: 60%;
+}
 h2 {
   color: white;
   background: black;
@@ -64,10 +74,8 @@ h2 {
   color: black;  
   font-family: 'Genos', sans-serif;
   font-weight: 700;  
-  margin: 0px;
-  margin-left: 25%;
-  align-self: flex-start;  
-  font-size: 1.6em;
+  margin: 0px;   
+  font-size: 1.5em;
 }
 .btn-book-now {
   align-self: center;
