@@ -41,6 +41,16 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .navMain {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navMain {
+    font-size: 1.4em;
+  }
+}
 @media screen and (max-width: 450px) {
   .navMain {
     display: flex;
