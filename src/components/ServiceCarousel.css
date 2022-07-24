@@ -56,9 +56,8 @@ h2 {
   background: black;
   height: 50px;
   width: 90%;
-  text-align: center;
-  padding-top: 20px;
-  font-size: 2em;
+  text-align: center;  
+  font-size: 2.5em;
   font-family: 'Genos', sans-serif;
 }
 .other-services p {
@@ -85,8 +84,5 @@ h2 {
 }
 button:hover {
   border: 2px solid rgb(121, 199, 70);
-}
-
-.items:hover { 
   cursor: pointer;
 }
