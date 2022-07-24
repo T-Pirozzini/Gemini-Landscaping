@@ -1,16 +1,16 @@
 ## :deciduous_tree: Gemini Landscaping
-A Single Page Application, Landscaping website for a client.
+A Single Page Application Landscaping website for a client.
 
 #### HTML/CSS/JS/REACT/FIREBASE
 
 ## :video_camera: Live Demo
-<a href=>Coming soon...</a>
+<a>Coming soon...</a>
 
 ## :camera: Screenshots
 ### Home
-![home]()
+![home](https://github.com/T-Pirozzini/Gemini-Landscaping/blob/main/src/images/home.png?raw=true)
 ### Contact Form
-![contact]()
+![contact](https://github.com/T-Pirozzini/Gemini-Landscaping/blob/main/src/images/contact.png?raw=true)
 ### home (mobile)
 ![mobile-dashboard]()
 #### coming soon...
