@@ -5,6 +5,7 @@ import ServiceCarousel from './components/ServiceCarousel'
 import Footer from './components/Footer'
 import VanIsle from './images/lesly-derksen.jpg'
 import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </div>
       {/* <Main /> */}
       <ServiceCarousel />
+      <Contact />
       <Footer />
     </div>
   );

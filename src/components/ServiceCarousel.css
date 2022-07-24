@@ -8,16 +8,67 @@
   margin: 20px;
   display: flex;
   flex-direction: column;
-  justify-content:space-between;  
+  justify-content:space-between;
+  align-items: center;  
+}
+.garden {
+  background-image: url('../images/serena-saponaro.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;  
+}
+.all-services {
+  background-image: url('../images/daniel-watson.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
+}
+.pressure-washing {
+  background-image: url('../images/pressure-wash.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
+}
+.other-services {
+  background-image: url('../images/retaining-wall.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
 }
 h2 {
   color: white;
   background: black;
   height: 50px;
+  width: 90%;
   text-align: center;
   padding-top: 20px;
   font-size: 2em;
   font-family: 'Genos', sans-serif;
+}
+.other-services p {
+  color: black;  
+  font-family: 'Genos', sans-serif;
+  font-weight: 700;  
+  margin: 0px;
+  margin-left: 25%;
+  align-self: flex-start;  
+  font-size: 1.6em;
 }
 .btn-book-now {
   align-self: center;
@@ -35,33 +86,7 @@ h2 {
 button:hover {
   border: 2px solid rgb(121, 199, 70);
 }
-.garden {
-  background-image: url('../images/serena-saponaro.jpg');
-  background-size: cover;
-  height: 40vh;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-}
-.all-services {
-  background-image: url('../images/daniel-watson.jpg');
-  background-size: cover;
-  height: 40vh;
-  margin: 20px;
-}
-.pressure-washing {
-  background-image: url('../images/pressure-wash.jpg');
-  background-size: cover;
-  height: 40vh;
-  margin: 20px;
-}
-.other-services {
-  background-image: url('../images/retaining-wall.jpg');
-  background-size: cover;
-  height: 40vh;
-  margin: 20px;
-}
+
 .items:hover { 
   cursor: pointer;
 }

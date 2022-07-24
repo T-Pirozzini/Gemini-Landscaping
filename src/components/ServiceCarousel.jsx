@@ -41,15 +41,24 @@ export default function ServiceCarousel() {
         </div>
         <div className="garden">
           <h2>Garden Care & Pruning</h2>
+          <button className="btn-book-now">Book Now</button>
         </div>
         <div className="all-services">
           <h2>All Services</h2>
+          <button className="btn-book-now">Book Now</button>
         </div>
         <div className="pressure-washing">
           <h2>Pressure Washing</h2>
+          <button className="btn-book-now">Book Now</button>
         </div>
         <div className="other-services">
           <h2>Other Services Available</h2>
+          <p>Retaining walls</p>
+          <p>Irrigation</p>
+          <p>Light construction</p>
+          <p>Bark mulch application</p>
+          <p>River rock themed landscapes</p>
+          <button className="btn-book-now">Book Now</button>
         </div>
       </Carousel>;
     </div>
