@@ -20,9 +20,7 @@ A Single Page Application Landscaping website for a client.
 
 ### home (mobile)
 
-![mobile-dashboard]()
-
-#### coming soon...
+![mobile-dashboard](https://github.com/T-Pirozzini/Gemini-Landscaping/blob/main/src/images/mobile-home.png?raw=true)
 
 ### contact (mobile)
 
