@@ -6,7 +6,7 @@ A Single Page Application Landscaping website for a client.
 
 ## :video_camera: Live Demo
 
-<a>Coming soon...</a>
+<a href="wwww.gemini-landscaping.com">Click Here</a>
 
 ## :camera: Screenshots
 
