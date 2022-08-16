@@ -8,8 +8,8 @@ A Single Page Application Landscaping website for a client.
 
 <a href="https://gemini-landscaping.web.app/">Click Here</a>
 
-## Live Demo: AWS EC2 & Apache Server
-<a href="http://44.227.38.52">Click Here</a>
+<!-- ## Live Demo: AWS EC2 & Apache Server
+<a href="http://44.227.38.52">Click Here</a> -->
 
 ## :camera: Screenshots
 
