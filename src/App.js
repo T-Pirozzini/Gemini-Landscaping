@@ -8,13 +8,13 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="app">
+    <div className="app h-screen overflow-y-auto overflow-x-hidden perspective">
       <Navbar />
       <About />      
       <div className="image-container">
         <img className="background" src={VanIsle} />
       </div>      
-      <ServiceCarousel />
+      <ServiceCarousel />      
       <Contact />
       <Footer />
     </div>
