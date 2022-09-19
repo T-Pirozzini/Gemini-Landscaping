@@ -14,8 +14,8 @@ const focusContact = () => {
 
 export default function Navbar() {
   return (
-    <div className='navMain relative h-full width-screen flex flex-col justify-center items-center z-1 preserve-3d'>      
-      <img src={GeminiLogo} className="logo w-96 distance-1" alt="gemini-logo" />
+    <div className='relative flex justify-center -z-1 preserve-3d z-1'>      
+      <img src={GeminiLogo} className="logo w-4/5 drop-shadow-md distance-1 mb-20" alt="gemini-logo" />
       {/* <span  className="text-white self-center" onClick={focusAbout}>ABOUT</span>
       <span className="text-white" onClick={focusServices}>SERVICES</span>
       <span className="text-white" onClick={focusContact}>CONTACT</span> */}

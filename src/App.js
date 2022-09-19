@@ -8,10 +8,10 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="app h-screen overflow-y-auto overflow-x-hidden perspective">
+    <div className="h-screen overflow-y-auto overflow-x-hidden scroll-smooth perspective">
       <Navbar />
       <About />      
-      <div className="image-container">
+      <div className="image-container absolute top-0 w-full object-cover -z-10 contrast-50 grayscale">
         <img className="background" src={VanIsle} />
       </div>      
       <ServiceCarousel />      
