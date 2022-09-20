@@ -4,7 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 import "./ServiceCarousel.css"
 
 export default function ServiceCarousel() {
-
+ 
   const handleClick = () => {
     document.querySelector('.contact-container').scrollIntoView({block:'center', behavior: "smooth"});
   }
@@ -36,7 +36,7 @@ export default function ServiceCarousel() {
       swipeable={false}
       draggable={false}
       showDots={true}
-      infinite={true}
+      infinite={true}      
       className="items" 
       >
         <div className="lawn">

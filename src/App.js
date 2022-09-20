@@ -11,7 +11,7 @@ function App() {
     <div className="h-screen overflow-y-auto overflow-x-hidden scroll-smooth perspective">
       <Navbar />
       <About />      
-      <div className="image-container absolute top-0 w-full object-cover -z-10 contrast-50 grayscale">
+      <div className="image-container absolute top-0 w-full object-cover brightness-50 grayscale -z-10">
         <img className="background" src={VanIsle} />
       </div>      
       <ServiceCarousel />      
