@@ -1,25 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Contact.css"
 import emailjs from 'emailjs-com'
 
 export default function Contact() {
+  const [message, setMessage] = useState("")
 
   const sendEmail = (e) => {
-    e.preventDefault()
-    console.log(e.target)
+    e.preventDefault()    
     emailjs.sendForm(
       'service_k56wdek',
       'template_vrspn8p',
       e.target,
       'fZzoE3AXoEhioZYVZ'
       ).then(res => {
+        setMessage("Thank you for your message - We will respond as soon as we can.")
         console.log(res)
       }).catch(err => {
         console.log(err)
     })
   }
 
-  return (
+  return (  
     <div className="contact-container flex justify-center mb-4">
       <form className="contact-form w-11/12 tracking-wide rounded-md p-2 bg-slate-700" onSubmit={sendEmail}>
         <h1 className="text-center border-b-2 border-green-600 text-2xl">CONTACT US</h1>        
@@ -85,8 +86,9 @@ export default function Contact() {
           <p>Details:</p>
           <textarea name="details" className="w-full h-20 text-black"></textarea>         
         </div>  
-        <div className="flex justify-center m-2 hover:text-green-600">
-          <button className="btn-contact text-center border-2 p-1">SUBMIT</button>
+        <div className="flex flex-col justify-center m-2 hover:text-green-600">
+          <button className="btn-contact text-center self-center border-2 p-1 w-1/2 mb-2">SUBMIT</button>
+          <div className="text-white text-lg text-center">{message}</div>
         </div>              
       </form>
     </div>
