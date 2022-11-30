@@ -79,11 +79,8 @@ h2 {
 }
 .btn-book-now {
   align-self: center;
-  margin-bottom: 20px; 
-  font-size: 2em;
-  height: 60px;  
-  font-family: 'Hubballi', cursive;
-  border: 4px solid white;
+  margin-bottom: 20px;   
+  padding: 2px;  
   border-radius: 4px; 
 }
 .btn-book-now:hover {  
@@ -126,8 +123,13 @@ button:hover {
     letter-spacing: .5px;
     padding: 5px;
   }
-  .btn-book-now {
-    height: 50px;
-    font-size: 2em;    
+  .btn-book-now {       
+    background-color: white;
+    color: black;
+    border: 2px solid green; 
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    font-size: large;
   }
 }
