@@ -30,7 +30,7 @@ export default function ServiceCarousel() {
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-container mb-4">
       <Carousel 
       responsive={responsive}
       swipeable={false}
@@ -66,7 +66,7 @@ export default function ServiceCarousel() {
           </div>          
           <button className="btn-book-now" onClick={handleClick}>Book Now</button>
         </div>
-      </Carousel>;
+      </Carousel>
     </div>
   )
 }
