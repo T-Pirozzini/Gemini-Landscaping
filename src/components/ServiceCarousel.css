@@ -2,7 +2,7 @@
   margin-top: 100px;
 }
 .items {
-  margin: 50px;
+  margin: 30px;  
 }
 .lawn {
   background-image: url('../images/justin-schwartfigure.jpg');
@@ -80,7 +80,7 @@ h2 {
 .btn-book-now {
   align-self: center;
   margin-bottom: 20px; 
-  font-size: 3em;
+  font-size: 2em;
   height: 60px;  
   font-family: 'Hubballi', cursive;
   border: 4px solid white;

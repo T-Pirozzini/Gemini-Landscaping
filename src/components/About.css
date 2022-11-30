@@ -3,42 +3,5 @@
   justify-content: center;
 } */
 .about {
-  margin-top: 300px;
-  width: 100%;
-  /* background-color: rgba(14, 13, 13, 0.678);   */
-  color: white;  
-  font-family: 'Genos', sans-serif;
-  font-size: 1.5em;
-  letter-spacing: .5px;
-  border-radius: 6px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.about > h1 {
-  /* background-color: black; */
-  text-align: center;
-  width: 80%;  
-  border-bottom: 1px solid green;
-  font-size: 4rem;
-}
-.about > p {
-  font-size: 1.2em;
-  text-align: center;
-}
-
-@media screen and (max-width: 450px) {
-  .about {
-    background-color: rgba(41, 39, 39, 0.63);
-    margin-top: 220px;
-  }
-  .about > h1 {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 1.1em;
-  }
-  .about > p {
-    font-size: .8em;
-  }
+  font-family: 'Genos', sans-serif; 
 }

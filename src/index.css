@@ -4,24 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Genos&family=Hubballi&display=swap');
 
-@layer utilities {
-  .perspective {
-    perspective: 10px;
-  }
-  .preserve-3d {
-    transform-style: preserve-3d;
-  }
-  .distance-1 {
-    transform: translateZ(-10px) scale(2);
-  }
-  .distance-2 {
-    transform: translateZ(-5px) scale(1.5);
-  }
-}
-
 body {
   margin: 0;
-  background-color: black;  
+  background-color: black; 
+  color: white; 
 }
 
 
