@@ -1,6 +1,6 @@
 import React from 'react'
-import './Navbar.css'
 import GeminiLogo from '../images/gemini-logo.png'
+// import VanIsle from '../images/lesly-derksen.jpg'
 
 const focusAbout = () => {
   document.querySelector('.about-container').scrollIntoView({block:'center', behavior: "smooth"});
@@ -14,11 +14,16 @@ const focusContact = () => {
 
 export default function Navbar() {
   return (
-    <div className='relative flex justify-center -z-1 preserve-3d z-1'>      
-      <img src={GeminiLogo} className="logo w-3/5 distance-1 saturate-150 mb-40" alt="gemini-logo" />
-      {/* <span  className="text-white self-center" onClick={focusAbout}>ABOUT</span>
-      <span className="text-white" onClick={focusServices}>SERVICES</span>
-      <span className="text-white" onClick={focusContact}>CONTACT</span> */}
+    <div className="h-screen overflow-y-auto overflow-x-hidden scroll-smooth perspective">
+      <div className="absolute top-0 w-full object-cover brightness-50 grayscale -z-10">
+          {/* <img className="background" src={VanIsle} /> */}
+        </div> 
+      <div className='relative flex -z-1 preserve-3d z-1'>      
+        <img src={GeminiLogo} className="logo distance-1 saturate-150" alt="gemini-logo" />
+        {/* <span  className="text-white self-center" onClick={focusAbout}>ABOUT</span>
+        <span className="text-white" onClick={focusServices}>SERVICES</span>
+        <span className="text-white" onClick={focusContact}>CONTACT</span> */}
+      </div>
     </div>
   )
 }
