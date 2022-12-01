@@ -14,8 +14,8 @@ const focusContact = () => {
 
 export default function Navbar() {
   return (
-    <div className="pb-4">
-      <img src={GeminiLogo} className="relative inset-x-0" alt="gemini-logo" />       
+    <div className="pb-6 lg:flex lg:justify-center">
+      <img src={GeminiLogo} className="relative inset-x-0 saturate-150 lg:w-1/3" alt="gemini-logo" />       
     </div>
   )
 }
