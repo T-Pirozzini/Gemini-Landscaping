@@ -3,7 +3,7 @@ import "./Contact.css"
 import emailjs from 'emailjs-com'
 
 export default function Contact() {
-  const [message, setMessage] = useState("")
+  const [message, setMessage] = useState("")  
 
   const sendEmail = (e) => {
     e.preventDefault()    
@@ -14,6 +14,7 @@ export default function Contact() {
       'fZzoE3AXoEhioZYVZ'
       ).then(res => {
         setMessage("Thank you for your message - We will respond as soon as we can.")
+        e.target.reset()        
         console.log(res)
       }).catch(err => {
         console.log(err)
