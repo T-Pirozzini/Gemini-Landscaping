@@ -1,6 +1,6 @@
 import React from 'react'
-import './Navbar.css'
 import GeminiLogo from '../images/gemini-logo.png'
+// import VanIsle from '../images/lesly-derksen.jpg'
 
 const focusAbout = () => {
   document.querySelector('.about-container').scrollIntoView({block:'center', behavior: "smooth"});
@@ -14,11 +14,8 @@ const focusContact = () => {
 
 export default function Navbar() {
   return (
-    <div className='navMain'>      
-      <div><img src={GeminiLogo} className="logo" alt="gemini-logo" /></div>
-      <div><span  onClick={focusAbout}>ABOUT</span></div>
-      <div><span onClick={focusServices}>SERVICES</span></div>
-      <div><span onClick={focusContact}>CONTACT</span></div>
+    <div className="pb-6 lg:flex lg:justify-center">
+      <img src={GeminiLogo} className="relative inset-x-0 saturate-150 lg:w-1/3" alt="gemini-logo" />       
     </div>
   )
 }
