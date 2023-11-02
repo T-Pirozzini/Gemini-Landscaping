@@ -1,5 +1,5 @@
 .carousel-container {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 .items {
   margin: 30px;  
@@ -93,6 +93,17 @@ h2 {
 button:hover {
   border: 2px solid rgb(121, 199, 70);
   cursor: pointer;
+}
+/* Add transitions for filter property */
+.service-card {
+  transition: filter 0.3s ease-in-out;
+  filter: grayscale(60%); /* Initial filter value for faded effect */
+}
+
+/* On hover, remove the filter effect */
+.service-card:hover {
+  transition: filter 0.3s ease-in-out;
+  filter: none;
 }
 
 @media screen and (max-width: 1024px) {
