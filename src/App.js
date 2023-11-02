@@ -3,17 +3,25 @@ import ServiceCarousel from './components/ServiceCarousel'
 import Footer from './components/Footer'
 import About from './components/About'
 import Contact from './components/Contact'
-import VanIsle from './images/vanIsle.jpg'
+import { Parallax } from 'react-parallax';
 
 function App() {
   return (
+     
     <>          
-      <Navbar />    
+      <Navbar /> 
+      <Parallax bgImage={'/vanIsle.jpg'} strength={500}>      
       <About />
-      <ServiceCarousel />      
+      </Parallax>  
+      
+      <ServiceCarousel />  
+      
+          
       <Contact />
+       
       <Footer />
     </>
+     
   );
 }
 
