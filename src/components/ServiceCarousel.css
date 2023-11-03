@@ -1,5 +1,5 @@
 .carousel-container {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 .items {
   margin: 30px;  
@@ -37,6 +37,28 @@
   justify-content:space-between;
   align-items: center; 
 }
+.irrigation {
+  background-image: url('../images/victor-furtuna.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
+}
+.planting {
+  background-image: url('../images/kelly-sikkema.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
+}
 .pressure-washing {
   background-image: url('../images/pressure-wash.jpg');
   background-size: cover;
@@ -48,7 +70,40 @@
   justify-content:space-between;
   align-items: center; 
 }
-.other-services {
+.landscape-design {
+  background-image: url('../images/landscape-design.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
+}
+.winter-services {
+  background-image: url('../images/elias-null.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
+}
+.landscape-services {
+  background-image: url('../images/landscape-services.jpg');
+  background-size: cover;
+  height: 40vh;
+  margin: 20px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center; 
+}
+.hardscape-services {
   background-image: url('../images/retaining-wall.jpg');
   background-size: cover;
   height: 40vh;
@@ -59,24 +114,7 @@
   justify-content:space-between;
   align-items: center; 
 }
-.other-services-list {
-  background-color: rgba(255, 255, 255, 0.432);
-  border-radius: 4px;
-  padding: 4px;
-  /* padding: 0px 20px;
-  text-align: center;
-  width: 60%; */
-}
-h2 {  
-  font-family: 'Genos', sans-serif;
-}
-.other-services p {
-  color: black;  
-  font-family: 'Genos', sans-serif;
-  /* font-weight: 700;  
-  margin: 0px;   
-  font-size: 1.5em; */
-}
+
 .btn-book-now {
   background-color: white;
   color: black;
@@ -93,6 +131,17 @@ h2 {
 button:hover {
   border: 2px solid rgb(121, 199, 70);
   cursor: pointer;
+}
+/* Add transitions for filter property */
+.service-card {
+  transition: filter 0.3s ease-in-out;
+  filter: grayscale(60%); /* Initial filter value for faded effect */
+}
+
+/* On hover, remove the filter effect */
+.service-card:hover {
+  transition: filter 0.3s ease-in-out;
+  filter: none;
 }
 
 @media screen and (max-width: 1024px) {

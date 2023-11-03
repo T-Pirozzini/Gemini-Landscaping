@@ -23,7 +23,10 @@ export default function Contact() {
 
   return (  
     <div className="contact-container flex justify-center mb-4 md:text-2xl">
-      <form className="contact-form w-11/12 tracking-wide rounded-md p-2 bg-slate-700 lg:w-1/2 md:mb-6" onSubmit={sendEmail}>
+      <form
+        className="contact-form w-11/12 tracking-wide rounded-md p-2 bg-slate-700 lg:w-1/2 md:mb-6"
+        onSubmit={sendEmail}
+      >
         <h1 className="text-center border-b-2 border-green-600 text-2xl md:text-4xl">CONTACT</h1>        
         <div className="contact-services-container grid grid-cols-2 pb-2">
           <div className="md:p-2">
@@ -91,8 +94,8 @@ export default function Contact() {
           <p className="self-start ml-10">Details:</p>
           <textarea name="details" className="w-full h-20 text-black md:w-5/6"></textarea>         
         </div>  
-        <div className="flex flex-col justify-center m-2 hover:text-green-600">
-          <button className="btn-contact text-center self-center border-2 p-1 w-1/4 mb-2">SUBMIT</button>
+        <div className="flex flex-col items-center mt-4">
+          <button className="btn-contact border-2 p-2 w-32 mb-2 hover:bg-green-600 hover:text-white transition">SUBMIT</button>
           <div className="text-white text-lg text-center">{message}</div>
         </div>              
       </form>

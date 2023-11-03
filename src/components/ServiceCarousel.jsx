@@ -17,20 +17,20 @@ export default function ServiceCarousel() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 3
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 2
     }
   };
 
   return (
-    <div className="carousel-container mb-4 text-2xl md:text-3xl">
+    <div className="carousel-container mb-4 text-2xl md:text-3xl text-white">
       <Carousel 
       responsive={responsive}
       swipeable={false}
@@ -39,33 +39,80 @@ export default function ServiceCarousel() {
       infinite={true}      
       className="items" 
       >
-        <div className="lawn">
-          <h2 className="bg-black p-2">Lawn Care</h2>
+        <div className="landscape-services service-card flex items-center justify-center">
+  <div className="text-container w-4/5 text-center">
+    <h1 className="p-2">Landscape Maintenance</h1>
+    <p className="text-base">Lawn care, pruning, weeding, and seasonal clean-up.</p>
+  </div>
+  <button className="btn-book-now" onClick={handleClick}>
+    Book Now
+  </button>
+</div>
+<div className="garden service-card flex items-center justify-center">
+  <div className="text-container w-4/5 text-center">
+          <h1 className="p-2">Garden Care & Pruning</h1>
+          <p className="text-base">Flower bed management, mulching, and plant health assessments.</p>
+          </div>
           <button className="btn-book-now" onClick={handleClick}>Book Now</button>
         </div>
-        <div className="garden">
-          <h2 className="bg-black p-2">Garden Care & Pruning</h2>
+        <div className="all-services service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Tree and Shrub Care</h1>
+          <p className="text-base">Trimming, shaping, and health maintenance.</p>
+          </div>
           <button className="btn-book-now" onClick={handleClick}>Book Now</button>
         </div>
-        <div className="all-services">
-          <h2 className="bg-black p-2">All Services</h2>
+        <div className="lawn service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Lawn Treatment</h1>
+          <p className="text-base">Fertilization, aeration, lime and weed control.</p>
+          </div>
           <button className="btn-book-now" onClick={handleClick}>Book Now</button>
         </div>
-        <div className="pressure-washing">
-          <h2 className="bg-black p-2">Pressure Washing</h2>
-          <button className="btn-book-now" onClick={handleClick}>Book Now</button>
-        </div>
-        <div className="other-services">
-          <h2 className="bg-black p-2">Other Services</h2>
-          <div className="other-services-list text-xl lg:text-2xl">
-            <p>Retaining walls</p>
-            <p>Irrigation</p>
-            <p>Light construction</p>
-            <p>Bark mulch</p>
-            <p>Rock landscapes</p>
-          </div>          
+        <div className="irrigation service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Irrigation Services</h1>
+          <p className="text-base">System installation, maintenance, and seasonal adjustments.</p> 
+          </div>         
           <button className="btn-book-now text-xl md:border-2 md:border-green-600" onClick={handleClick}>Book Now</button>
         </div>
+        <div className="pressure-washing service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Pressure Washing Service</h1>
+          <p className="text-base">Driveways, parking lots, walkways and building entrances.</p>
+          </div>
+          <button className="btn-book-now" onClick={handleClick}>Book Now</button>
+        </div>
+        <div className="hardscape-services service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Hardscape Maintenance</h1>
+          <p className="text-base">Pathway, deck, and patio upkeep.</p>
+          </div>
+          <button className="btn-book-now" onClick={handleClick}>Book Now</button>
+        </div>
+        <div className="planting service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Seasonal Planting</h1>
+          <p className="text-base">Annuals and perennials</p>
+          </div>
+          <button className="btn-book-now" onClick={handleClick}>Book Now</button>
+        </div>
+        <div className="landscape-design service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Landscape Design</h1>
+          <p className="text-base">Custom designs to enhance property aesthetics and functionality.</p>
+          </div>
+          <button className="btn-book-now" onClick={handleClick}>Book Now</button>
+        </div>
+        <div className="winter-services service-card flex items-center justify-center">
+  <div className="text-container w-3/5 text-center">
+          <h1 className="p-2">Winter Services</h1>
+          <p className="text-base">Snow and ice management services.</p>
+          </div>
+          <button className="btn-book-now" onClick={handleClick}>Book Now</button>
+        </div>
+        
+        
       </Carousel>
     </div>
   )

@@ -3,17 +3,16 @@ import ServiceCarousel from './components/ServiceCarousel'
 import Footer from './components/Footer'
 import About from './components/About'
 import Contact from './components/Contact'
-import VanIsle from './images/vanIsle.jpg'
 
 function App() {
-  return (
+  return (     
     <>          
-      <Navbar />    
-      <About />
-      <ServiceCarousel />      
-      <Contact />
+      <Navbar />            
+      <About />            
+      <ServiceCarousel />       
+      <Contact />       
       <Footer />
-    </>
+    </>     
   );
 }
 
