@@ -24,7 +24,7 @@ export default function Contact() {
   return (  
     <div className="contact-container flex justify-center mb-4 md:text-2xl">
       <form
-        className="contact-form w-11/12 tracking-wide rounded-md p-2 bg-slate-700 lg:w-1/2 md:mb-6"
+        className="contact-form w-11/12 tracking-wide rounded-md p-2 bg-slate-100 lg:w-1/2 md:mb-6"
         onSubmit={sendEmail}
       >
         <h1 className="text-center border-b-2 border-green-600 text-2xl md:text-4xl">CONTACT</h1>        
@@ -63,27 +63,27 @@ export default function Contact() {
         
         <div className="services pb-4 md:flex md:justify-center">
           <div className="service-list grid grid-cols-2 text-sm gap-2 md:text-2xl md:w-3/4">          
-            <div className="border-2">
+            <div className="border-2 border-slate-400">
               <input type="checkbox" name="services" value="Lawn Care" className="m-2"/>
               <label for="lawn-care">Lawn Care</label>
             </div>
-            <div className="border-2">
+            <div className="border-2 border-slate-400">
               <input type="checkbox" name="services" value="garden-care" className="m-2"/>
               <label for="garden-care">Garden Care</label>
             </div>
-            <div className="border-2">
+            <div className="border-2 border-slate-400">
               <input type="checkbox" name="services" value="pruning-service" className="m-2"/>
               <label for="pruning-service">Pruning Service</label>
             </div>
-            <div className="border-2">      
+            <div className="border-2 border-slate-400">      
               <input type="checkbox" name="services" value="pressure-washing" className="m-2"/>
               <label for="pressure-washing">Pressure Washing</label>
             </div>
-            <div className="border-2"> 
+            <div className="border-2 border-slate-400"> 
               <input type="checkbox" name="services" value="irrigation" className="m-2"/>
               <label for="irrigation">Irrigation</label>
             </div>
-            <div className="border-2">
+            <div className="border-2 border-slate-400">
               <input type="checkbox" name="services" value="other" className="m-2"/>
               <label for="other">Other</label>
             </div>

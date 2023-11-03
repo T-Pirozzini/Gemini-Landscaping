@@ -1,5 +1,6 @@
 .carousel-container {
-  /* margin-top: 100px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .items {
   margin: 30px;  
@@ -116,17 +117,22 @@
 }
 
 .btn-book-now {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9); /* Use a semi-transparent background color */
   color: black;
-  border: 2px solid green; 
-  display: flex;
-  justify-content: center;  
-  align-items: center; 
-  /* font-size:large; */
+  border: 2px solid green;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 6px; /* Apply rounded corners for a modern touch */
+  transition: border 0.3s, box-shadow 0.3s; /* Add transition for hover effect */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Adjust font weight */
+  margin: 10px; /* Add margin to separate the button from other elements */
 }
-.btn-book-now:hover {  
-  border: 4px solid rgb(121, 199, 70);
-  border-radius: 6px;
+
+.btn-book-now:hover {
+  border: 2px solid rgb(121, 199, 70);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance the box-shadow on hover */
+  cursor: pointer;
 }
 button:hover {
   border: 2px solid rgb(121, 199, 70);

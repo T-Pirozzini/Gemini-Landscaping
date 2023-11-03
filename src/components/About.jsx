@@ -13,7 +13,7 @@ export default function About() {
         </p>
         <div className="core-values-container mt-6 flex space-x-6 flex-col md:flex-row md:space-x-4">
           
-          <div className="container flex flex-row space-y-4 space-x-4 items-center">
+          <div className="container flex flex-row space-y-4 mt-4 space-x-4 items-center">
             {/* Core Value: Transparent Communication */}
             <div className="core-value relative bg-white rounded-full shadow-lg p-8 flex flex-col items-center justify-center">
               <h2 className="text-xl font-semibold mb-2">Transparent Communication:</h2>

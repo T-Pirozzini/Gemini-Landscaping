@@ -4,7 +4,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <div id="footer" className="flex flex-col">
-      <p>Gemini Landscaping 2022</p>
+      <p>Gemini Landscaping</p>
       <p className="text-sm">Andy Holmberg</p>
       <p className="text-sm">andy@gemini-landscaping.com</p>
     </div>
